@@ -17,11 +17,11 @@ const MenuCard = ({ itemNum, burgerSrc, price, title, handler, delay = 0 }) => {
         delay,
       }}
     >
-      <div>Item {itemNum}</div>
+      <div>Course{itemNum}</div>
       <main>
         <img src={burgerSrc} alt={itemNum} />
 
-        <h5>₹{price}</h5>
+        <h5>${price}</h5>
 
         <p>{title}</p>
 

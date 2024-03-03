@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from "../../assets/aib.webp"
+import img2 from "../../assets/mlb.webp"
+import img3 from "../../assets/prob.webp"
 
 function Course() {
   return (
@@ -105,14 +108,14 @@ function Course() {
           ></iframe>
           </div>
         </section>
-        <section>
+        <section >
           <h2>Study Material</h2>
           <a target="_blank" href="Notes/Surface Chemistry  Complete NCERT.pdf">
             <img
-              src="Notes/Surface Chemistry  Complete NCERT_pages-to-jpg-0001.jpg"
+              src={img2}
               alt=""
-              width="24%"
-              height="60%"
+              width="15%"
+              height="25%"
             />
           </a>
           <a
@@ -120,26 +123,35 @@ function Course() {
             href="Notes/Solid State New Complete Chapter Notes.pdf"
           >
             <img
-              src="Notes/Solid State New Complete Chapter Notes-01.jpg"
+              src={img2}
               alt=""
-              width="24%"
-              height="60%"
+              width="15%"
+              height="30%"
             />
           </a>
           <a target="_blank" href="Notes/Electrochemistry  Complete NCERT.pdf">
             <img
-              src="Notes/Electrochemistry  Complete NCERT-01.jpg"
+              src={img2}
               alt=""
-              width="24%"
-              height="60%"
+              width="15%"
+              height="10%"
+            />
+          </a>
+         
+          <a target="_blank" href="Notes/Coordination Compound 3.pdf">
+            <img
+              src={img2}
+              alt=""
+              width="15%"
+              height="35%"
             />
           </a>
           <a target="_blank" href="Notes/Coordination Compound 3.pdf">
             <img
-              src="Notes/Coordination Compound 3-page-001 (1).jpg"
+              src={img2}
               alt=""
-              width="24%"
-              height="60%"
+              width="15%"
+              height="35%"
             />
           </a>
         </section>
