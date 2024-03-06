@@ -28,11 +28,9 @@ main {
   h1 {
     padding: 20px;
     size: 2rem;
+    color: black !important;
   }
 }
-
-
-
 
 section:nth-child(even) {
   background-color: rgb(241, 241, 241);
@@ -55,6 +53,7 @@ section {
 
   h5 {
     margin: 40px;
+    color: rgb(55, 55, 55);
   }
 }
 
