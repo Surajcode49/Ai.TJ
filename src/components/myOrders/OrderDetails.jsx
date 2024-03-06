@@ -4,7 +4,7 @@ const OrderDetails = () => {
   return (
     <section className="orderDetails">
       <main>
-        <h1>Order Details</h1>
+        <h1>Order Details For Book</h1>
         <div>
           <h1>Shipping</h1>
           <p>
@@ -91,7 +91,6 @@ const OrderDetails = () => {
               <span>{10}</span> * <span>{1800}</span>
             </div>
           </div>
-
           <div>
             <h4
               style={{

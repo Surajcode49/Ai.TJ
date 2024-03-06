@@ -5,7 +5,7 @@ const Shipping = () => {
   return (
     <section className="shipping">
       <main>
-        <h1>Shipping Details</h1>
+        <h1>Shipping Details For Book</h1>
         <form>
           <div>
             <label>H.No.</label>

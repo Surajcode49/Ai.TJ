@@ -14,7 +14,7 @@ const Orders = () => {
             <tr>
               <th>Order Id</th>
               <th>Status</th>
-              <th>Item Qty</th>
+              <th>Course Qty</th>
               <th>Amount</th>
               <th>Payment Method</th>
               <th>User</th>

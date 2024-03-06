@@ -5,7 +5,7 @@ const PaymentSuccess = () => {
   return (
     <section className="paymentsuccess">
       <main>
-        <h1>Order Confirmed</h1>
+        <h1>Order Confirmed for Book</h1>
         <p>Order Placed Successfully, You can check order status below</p>
         <Link to="/myorders">Check Status</Link>
       </main>

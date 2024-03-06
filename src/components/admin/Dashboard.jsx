@@ -48,7 +48,7 @@ const Dashboard = () => {
 
           <section>
             <div>
-              <Link to="/admin/orders">View Orders</Link>
+              <Link to="/admin/orders">View Courses</Link>
               <Link to="/admin/users">View Users</Link>
             </div>
 

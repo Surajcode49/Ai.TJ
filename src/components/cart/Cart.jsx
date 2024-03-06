@@ -77,8 +77,7 @@ const Cart = () => {
             <p>₹{2000 * 0.18}</p>
           </div>
           <div>
-            <h4>Shipping Charges</h4>
-            <p>₹{200}</p>
+           
           </div>{" "}
           <div>
             <h4>Total</h4>
