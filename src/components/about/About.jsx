@@ -10,15 +10,15 @@ const About = () => {
         <h1>About Us</h1>
 
         <article>
-          <h4>B.TECH Burger Wala</h4>
+          <h4>Ai.Sikho</h4>
           <p>
-            We are B.TECH Burger Wala. The place for most tasty burgers on the
-            enitre earth.
+            We are from Ai.Sikho.The place for learning Ai
+            
           </p>
 
           <p>
-            Explore the various type of food and burgers. Click below to see the
-            menu
+            Explore the various type of courses . Click below to see the
+            Courses details
           </p>
 
           <Link to="/">
@@ -35,8 +35,8 @@ const About = () => {
             </div>
 
             <p>
-              I am SURAJ PRASAD, the founder of MBA Burger Wala. Affiliated to
-              Good Taste...
+              I am SURAJ PRASAD, the founder of AI.Sikho. The way of success..
+             
             </p>
           </article>
         </div>
