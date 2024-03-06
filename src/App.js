@@ -16,6 +16,7 @@ import Users from "./components/admin/Users";
 import Orders from "./components/admin/Orders";
 import About from "./components/about/About";
 import NotFound from "./components/layout/NotFound";
+import Mainpage from "./components/home/Mainpage";
 
 import "./styles/app.scss";
 import "./styles/header.scss";
@@ -35,13 +36,16 @@ import "./styles/orderDetails.scss";
 import "./styles/dashboard.scss";
 import "./styles/about.scss";
 import "./styles/course.scss";
+import "./styles/mainpage.scss";
 
 function App() {
   return (
     <Router>
       <Header isAuthenticated={true} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Mainpage />} />
+        <Route path="/Home" element={<Home/>} />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />

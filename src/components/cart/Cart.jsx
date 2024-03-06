@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import burger1 from "../../assets/burger1.png";
-import burger2 from "../../assets/burger2.png";
-import burger3 from "../../assets/burger3.png";
+import burger1 from "../../assets/aib.webp";
+import burger2 from "../../assets/mlb.webp";
+import burger3 from "../../assets/prob.webp";
 
 const CartItem = ({ value, title, img, increment, decrement }) => (
   <div className="cartItem">
@@ -46,21 +46,21 @@ const Cart = () => {
     <section className="cart">
       <main>
         <CartItem
-          title={"Cheese Burger"}
+          title={"Study Material for  AI "}
           img={burger1}
           value={cartItems[1]}
           increment={() => increment(1)}
           decrement={() => decrement(1)}
         />
         <CartItem
-          title={"Veg Cheese Burger"}
+          title={"Study Material for ML"}
           img={burger2}
           value={cartItems[2]}
           increment={() => increment(2)}
           decrement={() => decrement(2)}
         />
         <CartItem
-          title={"Cheese Burger with French Fries"}
+          title={"Study Material for Prompt Engineer"}
           img={burger3}
           value={cartItems[3]}
           increment={() => increment(3)}
@@ -76,9 +76,7 @@ const Cart = () => {
             <h4>Tax</h4>
             <p>₹{2000 * 0.18}</p>
           </div>
-          <div>
-           
-          </div>{" "}
+          <div></div>{" "}
           <div>
             <h4>Total</h4>
             <p>₹{2000 + 2000 * 0.18 + 200}</p>

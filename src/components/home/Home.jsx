@@ -27,7 +27,7 @@ const Home = () => {
               delay: 0.2,
             }}
           >
-            Give yourself a best way 
+            Give yourself a best way
           </motion.p>
         </div>
 
