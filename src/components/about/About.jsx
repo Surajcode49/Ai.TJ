@@ -35,7 +35,7 @@ const About = () => {
             </div>
 
             <p>
-              I am SURAJ PRASAD, the founder of AI.Sikho. The way of success..
+              I am SURAJ PRASAD, hiiiiiiiiii the founder of AI.Sikho. The way of success..
              
             </p>
           </article>
