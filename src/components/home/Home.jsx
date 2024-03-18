@@ -27,7 +27,7 @@ const Home = () => {
               delay: 0.2,
             }}
           >
-            Give yourself a best path of learning in Ai
+            Give yourself a best path of learning
           </motion.p>
         </div>
 
