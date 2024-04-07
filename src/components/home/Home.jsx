@@ -20,7 +20,7 @@ const Home = () => {
     <>
       <section className="home">
         <div>
-          <motion.h1 {...options}>AI.SIKHO </motion.h1>
+          <motion.h1 {...options}>TerseJob </motion.h1>
           <motion.p
             {...options}
             transition={{

@@ -51,7 +51,7 @@ const OrderDetails = () => {
           </p>
           <p>
             <b>Paid At</b>
-            {"Suraj@paytm.upi"}
+            {"Terse@paytm.upi"}
           </p>
         </div>
 
