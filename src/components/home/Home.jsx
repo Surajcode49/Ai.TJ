@@ -24,7 +24,7 @@ const Home = () => {
           <motion.p
             {...options}
             transition={{
-              delay: 0.2,
+              delay: 0.5,
             }}
           >
             Give yourself a best path of learning

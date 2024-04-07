@@ -1,7 +1,7 @@
 @import "colors";
 
 .home {
-  height: 100vh;
+  height: 70vh;
   overflow-x: hidden;
 
   div {
@@ -14,6 +14,8 @@
 
     > p {
       font-size: 1.2rem;
+      color: white;
+      justify-content: center;
     }
   }
 
@@ -37,13 +39,15 @@
   &::before {
     content: "";
     width: 100%;
-    height: 100%;
-    background-image: url("https://avatars.mds.yandex.net/i?id=45366a0c09a660a2dbeb588ce5ed3e4e1ec4f744-12146892-images-thumbs&n=13");
+    height: 70%;
+    background-image: url("../assets/founder.gif");
+
+    background-position: bottom;
+
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     left: 0%;
-  
   }
 }
 

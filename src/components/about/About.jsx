@@ -10,9 +10,9 @@ const About = () => {
         <h1>About Us</h1>
 
         <article>
-          <h4>Ai.Sikho</h4>
+          <h4>TerseJob</h4>
           <p>
-            We are from Ai.Sikho.The place for learning Ai
+            We are from TerseJob.The place for learning Ai
             
           </p>
 
@@ -31,11 +31,11 @@ const About = () => {
           <article>
             <div>
               <img src={me} alt="Founder" />
-              <h3>SURAJ PRASAD</h3>
+              <h3>Tanuj Vyas</h3>
             </div>
 
             <p>
-              I am SURAJ PRASAD, hiiiiiiiiii the founder of AI.Sikho. The way of success..
+              I am Tanuj Vyas, the founder of TerseJob. The way of success..
              
             </p>
           </article>

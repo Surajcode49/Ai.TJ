@@ -18,13 +18,13 @@ const Founder = () => {
       <motion.div {...options}>
         <img src={me} alt="Founder" height={200} width={200} />
         <h3>
-          <span>SURAJ PRASAD</span>
+          <span>TANUJ VYAS</span>
         </h3>
 
         <p>
-          Hey, Everyone I am <span>SURAJ PRASAD</span>, the founder of AI.Sikho.
+          Hey, Everyone I am <span>TANUJ VYAS</span>, the founder of TerseJob
           <br />
-          Our aim is to provied the Knowledge about Ai and Prompt Engineering
+          Our mission is to provide quality education to the world
         </p>
       </motion.div>
     </section>
